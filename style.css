@@ -20,9 +20,8 @@ h3{
     color: black;
     text-align: left;
     font-weight: 400;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: cyan;
-    text-shadow: 1px 1px 1px black;
 }
 body{
     background-attachment: fixed;
