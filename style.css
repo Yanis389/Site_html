@@ -1,20 +1,20 @@
 h1 {
     color: azure;
     text-align:center;
-    font-weight: 700;
+    font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
     background: linear-gradient(to right, red, blue);
-    text-shadow: 3px 3px 0px black;
+    text-shadow: 2px 2px 0px black;
 }
 
 h2{
     color: black;
     text-align: left;
-    font-weight: 500;
+    font-weight: 700;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: cyan;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px white;
 }
 h3{
     color: black;
