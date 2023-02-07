@@ -38,10 +38,10 @@
                 <?php
                     echo ("<p> L'affichage des chiffres hexadécimaux de 0 à F est le suivant :</p>\n");
                     echo ("<ul>\n");
-                    for($i = 0; $i <+ 15 ; $i++){
-                        printf("<li>$i = %x <\li>\n", $i);
+                    for($i = 0; $i <16 ; $i++){
+                        printf("<li> %x </li>", $i);
                     }
-                    echo ("<\ul> \n");
+                    echo ("</ul>\n");
                 ?>
             </article>
             <article>
@@ -49,7 +49,7 @@
                 <?php
                     echo ("<p> L'affichage des chiffres hexadécimaux de 0 à F est le suivant :</p>\n");
                     echo ("<ul>\n");
-                for ($i = 0; $i < +15; $i++) {
+                for ($i = 0; $i <16; $i++) {
                     $y = dechex($i);
                     echo ("<li>$i = $y <li>\n");
                 }
@@ -87,7 +87,7 @@
                     }
                     echo ("</tr>\n");
                     }
-                    echo ("/tbody>\n");
+                    echo ("</tbody>\n");
                     echo ("</table>\n");        
                 ?>
             </section>
